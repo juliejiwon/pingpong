@@ -1,0 +1,24 @@
+.SFeffects {
+  margin-top: 8em;
+}
+
+.SFeffects img {
+  width: 80%;
+  margin: 5em 10%;
+}
+
+.SFexamples {
+  margin-top: 8em;
+}
+
+.SFexamples .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SFexamples .video-container {
+  width: 100%;
+  margin: 6%;
+}
+/*# sourceMappingURL=project.css.map */
