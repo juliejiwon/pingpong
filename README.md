@@ -1,3 +1,0 @@
-# pingpong
-
-\website for pingpong
