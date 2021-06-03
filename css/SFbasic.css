@@ -1,0 +1,31 @@
+.set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em 5% 0 5%;
+}
+
+.set img {
+  max-width: 50%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.codetitle {
+  width: 60%;
+  padding: 0.5em 0;
+  margin: 0.5em auto;
+  text-align: center;
+  background-color: #f9ea63;
+}
+
+.code {
+  width: 60%;
+  height: 60vh;
+  border: solid 0.2em;
+  border-color: black;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=SFbasic.css.map */
