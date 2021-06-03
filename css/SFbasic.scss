@@ -1,0 +1,29 @@
+.set {
+  display: flex;
+
+  margin: 2em 5% 0 5%;
+  img {
+    // margin: 1em;
+    max-width: 50%;
+  }
+}
+.map {
+  img {
+    width: 100%;
+  }
+}
+.codetitle {
+  width: 60%;
+  padding: 0.5em 0;
+  margin: 0.5em auto;
+  text-align: center;
+  background-color: rgba($color: #f9ea63, $alpha: 1);
+}
+.code {
+  width: 60%;
+  height: 60vh;
+  //   border: 2px inset #0000000;
+  border: solid 0.2em;
+  border-color: black;
+  margin: 0 auto;
+}
