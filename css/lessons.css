@@ -1,0 +1,52 @@
+.tag {
+  padding: 0.7em 1em;
+  background-color: #ececec;
+  text-align: center;
+  margin: 0.3em 0;
+  border-radius: 2em;
+}
+
+.tag:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.tag:active {
+  background-color: royalblue;
+  color: white;
+}
+
+.filterBar {
+  min-width: 12%;
+}
+
+.filtercat {
+  margin: 3em 0;
+}
+
+.filtercat div {
+  color: #4e4e4e;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .container .lessonGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .container .lessonGallery .item {
+  max-width: 30%;
+}
+
+.main .container .lessonGallery .item img {
+  width: 100%;
+}
+/*# sourceMappingURL=lessons.css.map */

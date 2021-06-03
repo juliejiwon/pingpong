@@ -1,0 +1,37 @@
+.tag {
+  padding: 0.7em 1em;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  margin: 0.3em 0;
+  border-radius: 2em;
+  &:hover {
+    background-color: royalblue;
+    color: white;
+  }
+  &:active {
+    background-color: royalblue;
+    color: white;
+  }
+}
+.filterBar {
+  min-width: 12%;
+}
+.filtercat {
+  margin: 3em 0;
+  div {
+    color: rgb(78, 78, 78);
+  }
+}
+.main .container {
+  display: flex;
+  .lessonGallery {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      max-width: 30%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

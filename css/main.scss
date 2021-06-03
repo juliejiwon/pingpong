@@ -74,9 +74,13 @@ section {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    .current a {
+      font-weight: bold;
+      border-left: rgba($color: #f9ea63, $alpha: 1);
+      border-width: 0 0 0 5px;
+      border-style: solid;
+    }
     li {
-      border-left: olive;
-      border-color: #f9ea63;
       margin: 0.8em 2em;
       a {
         color: rgba($color: #242424, $alpha: 0.85);
@@ -92,6 +96,7 @@ section {
 
       .smartfactory-nav {
         list-style-type: none;
+
         li {
           margin: 0.8em 2em;
           a {
@@ -99,6 +104,10 @@ section {
           }
         }
       }
+    }
+    .smartfactory-nav .current a {
+      font-weight: bold;
+      background-color: #f9ea63;
     }
   }
   .SW-main {
@@ -113,11 +122,4 @@ section {
       max-width: 100%;
     }
   }
-}
-
-.show {
-  display: block;
-}
-.none {
-  display: none;
 }

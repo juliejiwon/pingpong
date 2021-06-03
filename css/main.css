@@ -93,6 +93,13 @@ section {
   list-style-type: none;
 }
 
+.main .project-nav .current a {
+  font-weight: bold;
+  border-left: #f9ea63;
+  border-width: 0 0 0 5px;
+  border-style: solid;
+}
+
 .main .project-nav li {
   border-left: olive;
   border-color: #f9ea63;
