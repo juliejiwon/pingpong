@@ -101,8 +101,6 @@ section {
 }
 
 .main .project-nav li {
-  border-left: olive;
-  border-color: #f9ea63;
   margin: 0.8em 2em;
 }
 
@@ -118,16 +116,22 @@ section {
   font-weight: bold;
 }
 
-.main .project-nav li .smartfactory-nav {
+.main .project-nav .smartfactory-nav {
   list-style-type: none;
 }
 
-.main .project-nav li .smartfactory-nav li {
+.main .project-nav .smartfactory-nav li {
   margin: 0.8em 2em;
+  list-style: none;
 }
 
-.main .project-nav li .smartfactory-nav li a {
+.main .project-nav .smartfactory-nav li a {
   text-decoration: none;
+}
+
+.main .project-nav .smartfactory-nav li.current a {
+  font-weight: bold;
+  background-color: #f9ea63;
 }
 
 .main .SW-main {
@@ -144,13 +148,5 @@ section {
 
 .main .SF-main img {
   max-width: 100%;
-}
-
-.show {
-  display: block;
-}
-
-.none {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */

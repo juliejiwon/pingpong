@@ -93,22 +93,21 @@ section {
           font-weight: bold;
         }
       }
+    }
+    .smartfactory-nav {
+      list-style-type: none;
 
-      .smartfactory-nav {
-        list-style-type: none;
-
-        li {
-          margin: 0.8em 2em;
-          list-style: none;
-          a {
-            text-decoration: none;
-          }
+      li {
+        margin: 0.8em 2em;
+        list-style: none;
+        a {
+          text-decoration: none;
         }
       }
-    }
-    .smartfactory-nav .current a {
-      font-weight: bold;
-      background-color: #f9ea63;
+      li.current a {
+        font-weight: bold;
+        background-color: #f9ea63;
+      }
     }
   }
   .SW-main {
