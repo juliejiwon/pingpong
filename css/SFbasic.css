@@ -9,6 +9,21 @@
   max-width: 50%;
 }
 
+.parts a {
+  padding: 0.8em 1em;
+  background-color: #f9ea63;
+  color: black;
+  border-radius: 2em;
+  margin: 2em auto;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.parts a:hover {
+  background-color: black;
+  color: #f9ea63;
+}
+
 .map img {
   width: 100%;
 }

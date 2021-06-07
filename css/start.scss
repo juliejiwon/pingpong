@@ -1,0 +1,40 @@
+.main .container {
+  display: flex;
+  h2 {
+    width: 40%;
+    margin: auto 5%;
+  }
+  img {
+    width: 60%;
+  }
+}
+.todo {
+  .step {
+    align-items: center;
+    margin: 3em 0;
+    height: 30vh;
+    .shop {
+      border-radius: 2em;
+      padding: 0.8em 1.2em;
+      background-color: #f9ea63;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: black;
+      margin: 2em auto;
+
+      &:hover {
+        color: #f9ea63;
+        background-color: black;
+      }
+    }
+    .downloads {
+      margin: 0 auto;
+      display: block;
+    }
+    img {
+      width: 18em;
+      margin: 2em;
+    }
+  }
+}

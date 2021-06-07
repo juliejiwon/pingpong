@@ -1,0 +1,206 @@
+/*===============================================================*/
+/*======================= Mobile 520 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:520px){
+.pct {display:none !important;}
+.tablet {display:none !important;}
+.mobile {display:block !important;}
+img.tablet_img {display:none;}
+img.pct_img {display:none;}
+img.mobile_img {display:block;}
+table.mobile {display:table;}
+
+/*header*/
+#header, 
+#header .inner {height:65px;}
+#header h1 {width:150px; top:20px;}
+#header h1 a {height:24.5px;}
+.headerWrap .btn_bd_close {width:40px;}
+
+/* allmenu */
+.btn_menu {width:30px;}
+.bar1 {width:30px;}
+.bar2 {width:20px;}
+.bar3 {width:28px;}
+.change .bar3 {width:30px;}
+
+#AllMenu .all-inmn li {font-size:6.5vw; line-height:2.5;}
+#AllMenu .all-inmn li a span {line-height:1.6;}
+#AllMenu .all-inmn li a span:after {height:2.5px;}
+#AllMenu .util {margin-top:8%;}
+#AllMenu .util ul li {margin:0 2px;}
+#AllMenu .util ul li a {width:22vw; height:8vw; font-size:3.5vw; line-height:7.5vw;}
+
+/* 서브비주얼 */
+#subVisual {height:42vw; margin-top:65px; background-image:url('/images/common/subvisual_bg_m.jpg');}
+#subVisual .subv-title {font-size:8.5vw; line-height:29vw;}
+#subVisual.snbNone {height:29vw;}
+
+/* LNB */
+#SNB {margin-top:calc(-13vw - 1px); height:13vw;}
+.SNBWrap:before {height:13vw;}
+.SNBWrap .menu_on {font-size:4vw; background-size:3%; font-weight:500; line-height:13vw;}
+.SNBWrap ul {top:13vw; padding:3% 4%; -moz-border-radius-bottomright: 60px; -webkit-border-bottom-right-radius: 60px; border-bottom-right-radius: 60px;}
+.SNBWrap ul li {font-size:4vw; font-weight:500; line-height:2.4;}
+
+/* SelectStyle */
+.SelectType01 {height:9.5vw; padding:0 8vw 0 3vw; background-position:calc(100% - 3vw) center; background-size:2.5vw; font-size:3.2vw; line-height:9.5vw;}
+
+/* contents*/
+.section, 
+.contentsArea {padding-top:65px;}
+.section .section_wrap {padding:20% 0;}
+.contentsArea.conpd {padding-top:15%; padding-bottom:15%;}
+.TitleArea h2 {font-size:8.5vw;}
+.TitleArea p {font-size:3.8vw; line-height:1.4;}
+.TitleArea02 {margin-bottom:8%;}
+.TitleArea02 h2 {font-size:7.3vw; line-height:1.2;}
+.TitleArea02 p {margin-top:4%; font-size:3.8vw; line-height:1.4;}
+
+.slick-dots {margin-top:8%;}
+.slick-dots li button {width:2.5vw; height:2.5vw;}
+.slick-dots li.slick-active button {width:3vw; height:3vw;}
+
+#mainvisual .TxtArea strong {font-size:7.5vw;}
+#mainvisual .TxtArea b {padding-top:1%; font-size:5.2vw;}
+#mainvisual .TxtArea .btn_yellow {margin-top:6%;}
+#mainvisual .ImgArea .btn_play:before {width:15%; height:15%;}
+
+#PrdSlideArea .slick-slide img {width:65%; height:54.7vw;}
+#PrdSlideArea strong {font-size:7.5vw;}
+#PrdSlideArea p {margin-top:2%; padding:0 6%; font-size:3.8vw;}
+#PrdSlideArea .slick-arrow {width:18%; height:35vw; transform:translateY(-68%);}
+#PrdSlideArea .slick-arrow .arrow-icon {font-size:3.5vw; line-height:35vw;}
+#PrdSlideArea .slick-arrow.slick-prev {left:-18%;}
+#PrdSlideArea .slick-arrow.slick-next {right:-18%;}
+#PrdSlideArea .slick-arrow.slick-prev .arrow-icon span {padding-left:3vw; background-size:1.5vw;}
+#PrdSlideArea .slick-arrow.slick-next .arrow-icon span {padding-right:3vw; background-size:1.5vw;}
+
+#SeriesSlideArea .SeriesSlide .ImgArea {width:82%; height:67vw; overflow:hidden;}
+#SeriesSlideArea .SeriesSlide .ImgArea:before {right:10%; height:67vw;}
+#SeriesSlideArea .SeriesSlide .ImgArea img {width:86%; height:67vw;}
+#SeriesSlideArea .SeriesSlide .TxtArea {letter-spacing:-0.5px;}
+#SeriesSlideArea .SeriesSlide .TxtArea .tt b {font-size:4.5vw;}
+#SeriesSlideArea .SeriesSlide .TxtArea .tt strong {font-size:8.5vw;}
+#SeriesSlideArea .SeriesSlide .TxtArea .price {font-size:4.5vw;}
+#SeriesSlideArea .SeriesSlide .TxtArea p {margin-top:4%; font-size:3.8vw;}
+#SeriesSlideArea .SeriesSlide .TxtArea .BtnArea {margin-top:6%;}
+
+#section01 {padding:25% 0 20%;}
+#section02 {padding-top:30px;}
+#section03 .line_bg01 {width:100%; top:0; left:-28%;}
+#section03 .line_bg02 {width:25%;}
+
+/* kids */
+#kids #section03 {height:180vw;}
+#kids #section03 .inner {top:20%;}
+#kids #section03 .txt_app {width:70%;}
+#kids #section03 .AppInfo b {padding-top:2%; font-size:4.5vw;}
+#kids #section03 .AppInfo p {padding-top:2%; padding-right:0; font-size:3.8vw;}
+#kids #section03 .AppInfo .BtnAppArea {margin-top:8%;}
+#kids #section03 .AppInfo .BtnAppArea ul li {width:38%; margin-top:0;}
+#kids #section03 .AppInfo .BtnAppArea ul li .txt {width:62%; padding-left:3%; line-height:1.4; box-sizing:border-box;}
+#kids #section03 .AppInfo .BtnAppArea ul li .txt strong {font-size:4vw;}
+#kids #section03 .AppInfo .BtnAppArea ul li .txt span {font-size:3.2vw;}
+#kids #section03 .line_bg {bottom:-27%; width:160%; left:-85vw;}
+
+/* education */
+/* #education #mainvisual {background-image:url('/images/education/mainvisual_02_m.jpg');} */
+
+#software .TitleArea {margin-bottom:10%;}
+#software .software_slide .list .software_img {width:65%;}
+#software .software_slide .list strong {margin-top:6%; font-size:4.8vw;}
+#software .software_slide .list .btn_area {margin-top:6%;}
+#software .software_slide .list .btn_area img {width:11vw;}
+#software .software_slide .list .btn_area .btn_gray_line {width:40vw;}
+#software .software_slide .slick-arrow.slick-prev,
+#software .software_slide .slick-arrow.slick-next {width:4vw; height:7.3vw;}
+
+#roadmap .roadmap_list {margin-top:10%;}
+#roadmap .roadmap_list .list {float:none; width:100%; margin-left:0;}
+#roadmap .roadmap_list .list .TxtArea {padding:0 4%;}
+#roadmap .roadmap_list .list .TxtArea .ttArea {padding:5% 0;}
+#roadmap .roadmap_list .list .TxtArea .ttArea .years {font-size:3.5vw;}
+#roadmap .roadmap_list .list .TxtArea .ttArea .tt {margin-top:0; font-size:5vw;}
+#roadmap .roadmap_list .list .TxtArea .ttArea b {font-size:4vw;}
+#roadmap .roadmap_list .list .TxtArea .ttArea p {padding:2% 0; font-size:3.8vw;}
+#roadmap .roadmap_list .list .TxtArea ul {padding:6% 0;}
+#roadmap .roadmap_list .list .TxtArea ul li {margin-top:3%;}
+#roadmap .roadmap_list .list .TxtArea ul li .num {width:8vw; height:8vw; font-size:3.8vw; line-height:8vw;}
+#roadmap .roadmap_list .list .TxtArea ul li span {padding-left:2%; font-size:3.8vw;}
+#roadmap .roadmap_list .list.active.list02, 
+#roadmap .roadmap_list .list.active.list03, 
+#roadmap .roadmap_list .list.active.list04 {transition-delay:0s;-webkit-transition-delay:0s;}
+
+/* makers */
+/* #makers #mainvisual {background-image:url('/images/makers/mainvisual_03_m.jpg');} */
+
+/* Community */
+#grid {width:104%; margin-left:-2%;}
+.grid-item-box a:hover {-webkit-box-shadow: rgba(0,0,0,0.4) 3px 3px 8px; -moz-box-shadow: rgba(0,0,0,0.4) 3px 3px 8px; box-shadow: rgba(0,0,0,0.4) 3px 3px 8px;}
+.grid-item-box .img_wrap {max-width:70vw;}
+.grid-item-box .txt_area {padding:8%;}
+.grid-item-box .txt_area .subject {margin-bottom:4%; font-size:3.8vw;}
+.grid-item-box .txt_area .con {font-size:3.5vw; line-height:1.5;}
+.grid-item-box .txt_area .date {padding-top:4%; font-size:3vw;}
+
+/* 회원단 공통 */
+#MemBody {padding:20% 0 30%;}
+#MemBody .login_title {margin-bottom:8%;}
+#MemBody .login_title h4 {font-size:9vw;}
+#MemBody .login_title p {padding-top:1%; font-size:3.8vw; line-height:1.4;}
+#MemBody textarea {padding:4%; height:45vw; font-size:3.5vw;}
+
+/* 회원가입 */
+#MemBody.join .join_agree_box {margin-top:15%;}
+#MemBody.join .join_agree_box .title {margin-bottom:4%; font-size:4.5vw;}
+#MemBody.join .join_agree_box .agree_check {padding-top:4%;}
+
+
+/* 로그인 */
+#MemBody .login_con {width:80%;}
+#MemBody .login_con table input.text {height:13vw;}
+#MemBody .login_con .btn_login {height:13vw; font-size:4.2vw; line-height:13vw;}
+.login #MemBody .login_con .login_util {margin-top:6%;}
+.login #MemBody .login_con .login_util label {font-size:3.2vw;}
+.login #MemBody .login_con .login_util ul li {margin-left:2vw; padding-left:2vw; font-size:3.2vw;}
+.login #MemBody .login_con .login_util ul li:before {height:3vw;}
+
+/* 아이디/비밀번호 찾기 */
+#findIdpw .find {padding:6% 5%;}
+#findIdpw .find h4 {padding-bottom:2%; font-size:4.5vw;}
+#findIdpw .find p {line-height:1.4;}
+#findIdpw .find .writeBtnArea {margin-top:6%;}
+
+#findIdpw.idpw_result .find {padding:15% 5%;}
+#findIdpw.idpw_result .find p {font-size:3.8vw;}
+#findIdpw.idpw_result .find .btnArea {margin-top:8%; overflow:hidden;}
+#findIdpw.idpw_result .find .btnArea a {float:left; width:49%; margin:0 0 0 2%; font-size:3.8vw;} 
+#findIdpw.idpw_result .find .btnArea a:first-child {margin-left:0;}
+
+/*foot*/
+#foot {padding:10% 0;}
+.footWrap .f_util ul li {margin-left:3%; font-size:3.4vw;}
+.footWrap .icons-area {margin-top:4%;}
+.footWrap .icons-area a img {width:6.5vw;}
+.footWrap .footCnt {margin-top:6%; line-height:1.5;}
+.footWrap .footCnt address {font-size:3vw;}
+.footWrap .footCnt address span {padding-right:2.5vw; margin-right:2vw;}
+.footWrap .footCnt address span:after {height:2.5vw;}
+.footWrap .footCnt .copy {margin-top:6%; font-size:2.6vw;}
+
+/* 관리자 로그인 */
+div#box {width:90%; left:5%; padding:6% 5%; margin-bottom:-50%; border-width:3px; margin-left:0; box-sizing:border-box;}
+div#p_input span.label {width:24%;}
+div#box .login_center {padding:6% 0;}
+div.login_foot {margin-top:6%;}
+.divbox .text {width:50%;}
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 360 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:360px){
+
+}

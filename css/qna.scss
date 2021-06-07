@@ -1,0 +1,41 @@
+.tag {
+  padding: 0.7em 1em;
+  background-color: #ececec;
+  text-align: center;
+  margin: 0.5em 0.5em;
+  border-radius: 2em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tag:hover {
+  background-color: #f9ea63;
+  color: black;
+}
+
+.tag:active {
+  background-color: #f9ea63;
+  color: black;
+}
+
+.filterBar {
+  width: 20%;
+}
+
+.filtercat {
+  margin: 3em 0;
+}
+
+.filtercat div {
+  color: #4e4e4e;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main img {
+  width: 75%;
+}

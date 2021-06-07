@@ -1,0 +1,49 @@
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .container h2 {
+  width: 40%;
+  margin: auto 5%;
+}
+
+.main .container img {
+  width: 60%;
+}
+
+.todo .step {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3em 0;
+  height: 30vh;
+}
+
+.todo .step .shop {
+  border-radius: 2em;
+  padding: 0.8em 1.2em;
+  background-color: #f9ea63;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin: 2em auto;
+}
+
+.todo .step .shop:hover {
+  color: #f9ea63;
+  background-color: black;
+}
+
+.todo .step .downloads {
+  margin: 0 auto;
+  display: block;
+}
+
+.todo .step img {
+  width: 18em;
+  margin: 2em;
+}
+/*# sourceMappingURL=start.css.map */
