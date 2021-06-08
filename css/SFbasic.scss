@@ -38,17 +38,20 @@
 }
 
 .codetitle {
-  width: 60%;
+  width: 80%;
   padding: 0.5em 0;
-  margin: 0.5em auto;
+  margin: 2.5em auto 0.5em auto;
   text-align: center;
   background-color: rgba($color: #f9ea63, $alpha: 1);
 }
 .code {
-  width: 60%;
-  height: 60vh;
+  width: 80%;
+  height: auto;
   //   border: 2px inset #0000000;
   border: solid 0.2em;
   border-color: black;
   margin: 0 auto;
+  img {
+    width: inherit;
+  }
 }

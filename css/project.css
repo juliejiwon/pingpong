@@ -21,4 +21,15 @@
   width: 100%;
   margin: 6%;
 }
+
+.gotobasic {
+  border-radius: 2em;
+  padding: 1.2em;
+  background-color: #f9ea63;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: none;
+}
 /*# sourceMappingURL=project.css.map */
