@@ -9,10 +9,11 @@
     background-color: #f9ea63;
     color: black;
   }
-  &:active {
-    background-color: #f9ea63;
-    color: black;
-  }
+}
+.active {
+  background-color: #f9ea63;
+  color: black;
+  font-weight: bold;
 }
 .filterBar {
   width: 20%;

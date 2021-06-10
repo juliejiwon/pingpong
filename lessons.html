@@ -11,8 +11,8 @@
 <body>
     <div class="navbar">
         <div class="container">
-            <a class="logo" href="index.html">PingPongFlow</a>
-            <img src="static/symbol.png" alt="symbol" href="index.html">
+            <a class="logo" href="#">PingPongFlow</a>
+            <img src="static/symbol.png" alt="symbol" href="#">
 
             <nav>
                 <ul class="primary-nav">
@@ -70,6 +70,38 @@
             </div>
         </div>
     </section>
+    <script>
+        const tagItem = document.querySelectorAll('.tag');
+        const imgItem = document.querySelectorAll('.item')
+
+        tagItem.forEach(tag => {
+            tag.onclick = function() {
+                // console.log(tag.className);
+                // if (tag.className.indexOf("active") != -1) {
+                //     tag.className = tag.className.replace(" active", "");
+                // } else {
+                //     tag.className += " active";
+                // }
+
+                tagItem.forEach(tag => {
+                    tag.className= tag.className.replace(' active', '')
+                }
+                )
+                tag.className += ' active';
+
+        
+            // console.log(tag.textContent) 
+                const value = tag.getAttribute('filter');
+                console.log(value);
+                imgItem.forEach(img => {
+                    img.style.display = 'none';
+                    console.log(img.getAttribute('kit'));
+                    if(img.getAttribute('kit') == value || img.getAttribute('level') == value || img.getAttribute('content') == value) 
+                    img.style.display='block';
+                })
+            }
+        });
+    </script>
 
     <section class="bottom">
         <div class="container">

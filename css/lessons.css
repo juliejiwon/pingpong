@@ -14,9 +14,10 @@
   color: black;
 }
 
-.tag:active {
+.active {
   background-color: #f9ea63;
   color: black;
+  font-weight: bold;
 }
 
 .filterBar {
